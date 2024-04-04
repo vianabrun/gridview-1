@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           // Gera 100 Widgets que exibem o seu índice
           children: List.generate(100, (index) {
             return Center(
-              child: Icon(Icons.person),
+              child: Icon(Icons.yard),
             );
           }),
         ),
