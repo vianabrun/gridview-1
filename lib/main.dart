@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           children: List.generate(100, (index) {
             return Center(
               child: Text(
-                'Ite $index',
+                'Item $index',
                 style: Theme.of(context).textTheme.bodyText1,
               ),
             );
